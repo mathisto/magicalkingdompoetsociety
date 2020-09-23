@@ -1,3 +1,5 @@
+![Hack the night away](https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif)
+
 # Welcom to the Magical Kingdom Poet Society
 Make a PR. Fux wit dis repo. Add things. Delete things. Screw things up so you can learn to revert them.
 
