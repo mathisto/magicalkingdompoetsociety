@@ -6,7 +6,7 @@
 + [x] mathisto
 + [ ] Gaitorius
 + [ ] todtb
-+ [ ] fiteclub
++ [x] fiteclub
 + [ ] trumpeteducation
 + [ ] add your name here
 + [ ] append as necessary
