@@ -12,3 +12,4 @@ Hereth be yon rules:
 2. All Pull Requests must be accompanied by an animated gif. No exceptions.
 3. ????
 4. PROFIT!!!
+5. Edit [We_Are_Go.md](We_Are_Go.md) checking the box next to your name to prove your karate & friendship. (**test if you can commit & push**)
