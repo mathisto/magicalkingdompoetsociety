@@ -7,6 +7,6 @@
 + [ ] Gaitorius
 + [ ] todtb
 + [x] fiteclub
-+ [ ] trumpeteducation
++ [x] trumpeteducation
 + [ ] add your name here
 + [ ] append as necessary
