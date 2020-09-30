@@ -20,3 +20,6 @@ Hereth be yon rules:
 1. Get your hands dirty, try for thirty - After that, ask for Matt
 1. ????
 1. PROFIT!!!
+
+## Meta
+- The commit that introduces this unordered list item to [the README](README.md) (which itself contains a link to itself) also introduces a new section to `README.md` called "Meta" which contains a single, un-helpful, unnecessary, self-referential, bullet point. [This link](https://www.google.com/search?q=recursion), which initially will point to https://www.google.com/search?q=recursion confusingly points to the the commit mentioned in the previous sentence. However, since it cannot be known at the time of writing this line, it has been subsequently altered by the commit follows this one (whose SHA also cannot be known at this time). Additionally, the two commits necessary to make this bullet point hold true will be introduced by a [Pull Request](https://github.com/mathisto/magicalkingdompoetsociety/pull/17), whose URL can be predicted at the time of writing this commit with reasonable certainty. In fact, here is another link to PR #17 (which most certainly does not exist at the time of writing this list item) using the [Github Flavored Markdown](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown) `#[PR Number]` syntax.
