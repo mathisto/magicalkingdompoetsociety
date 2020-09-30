@@ -14,5 +14,6 @@ Hereth be yon rules:
 1. Thou shalt ask ONLY ridiculous questions, and ridiculous shall thine questions be.
 2. All Pull Requests must be accompanied by an animated gif. No exceptions.
 3. three sir!
-4. ????
-5. PROFIT!!!
+4. Edit [WeAreGo.md](docs/WeAreGo.md) checking the box next to your name to prove your karate & friendship. (**test if you can commit & push**)
+5. ????
+6. PROFIT!!!
