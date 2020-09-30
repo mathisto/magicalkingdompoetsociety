@@ -15,3 +15,4 @@ Hereth be yon rules:
 2. All Pull Requests must be accompanied by an animated gif. No exceptions.
 3. ????
 4. PROFIT!!!
+5. three sir!
