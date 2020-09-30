@@ -6,6 +6,7 @@
 ## Welcome to the Magical Kingdom Poet Society
 Make a PR. Fux wit dis repo. Add things. Delete things. Screw things up so you can learn to revert them.
 
+- Edit [WeAreGo.md](docs/WeAreGo.md) checking the box next to your name to prove your karate & friendship. (**test if you can commit & push**)
 - [Helpful Links](docs/HelpfulLinks.md)
 - [VIM Stuff](docs/VIM.md)
 
@@ -13,10 +14,8 @@ Make a PR. Fux wit dis repo. Add things. Delete things. Screw things up so you c
 Hereth be yon rules:
 1. Thou shalt ask ONLY ridiculous questions, and ridiculous shall thine questions be.
 1. All Pull Requests must be accompanied by an animated gif. No exceptions.
-1. All ordered lists must use one-dot GH flavored markdown syntax
-1. three sir!
-1. Edit [WeAreGo.md](docs/WeAreGo.md) checking the box next to your name to prove your karate & friendship. (**test if you can commit & push**)
-1. All roads lead to Rome
-1. Get your hands dirty, try for thirty - After that, ask for Matt
+1. Five...no three sir!
+1. All ordered lists must use `1.` [GitHub flavored markdown](https://guides.github.com/features/mastering-markdown/) syntax. ex: `1. First Item` `1. Second Item` `1. Third Item`
+1. Get your hands dirty, try for thirty - After that, ping [Matt](https://github.com/mathisto) or [Brian](https://github.com/todtb).
 1. ????
 1. PROFIT!!!
