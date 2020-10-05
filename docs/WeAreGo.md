@@ -4,7 +4,7 @@
 **Edit this file to show that you can commit & push. (add an "x" between the \[ \] brackets)**
 
 + [x] mathisto
-+ [ ] Gaitorius
++ [x] Gaitorius
 + [ ] todtb
 + [x] fiteclub
 + [x] trumpeteducation
