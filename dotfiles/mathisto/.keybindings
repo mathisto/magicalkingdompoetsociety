@@ -1,0 +1,12 @@
+# Use VIM Style Keybindings on the command line
+bindkey -v
+bindkey '^ ' autosuggest-accept
+echo -ne '\e[5 q' # Beam style insert cursor
+# Better searching in command mode
+bindkey -M vicmd '?' history-incremental-search-backward
+bindkey -M vicmd '/' history-incremental-search-forward
+# Beginning search with arrow keys
+bindkey "^[OA" up-line-or-beginning-search
+bindkey "^[OB" down-line-or-beginning-search
+bindkey -M vicmd "k" up-line-or-beginning-search
+bindkey -M vicmd "j" down-line-or-beginning-search
