@@ -1,0 +1,24 @@
+function = 
+{
+  echo "$@" | bc -l
+}
+
+function zle-keymap-select () {
+  # Only supported in these terminals
+  if [ "$TERM" = "xterm-256color" ] || [ "$TERM" = "xterm-kitty" ] || [ "$TERM" = "screen-256color" ]; then
+    if [ $KEYMAP = vicmd ]; then
+      echo -ne '\e[1 q' # Set block cursor
+    else
+      echo -ne '\e[5 q' # Set beam cursor
+    fi
+  fi
+}
+
+# Millisecond Epoch to Timpstamp
+day() {
+  date -r $(($1 / 1000))
+}
+
+# The fuck helper
+eval $(thefuck --alias)
+

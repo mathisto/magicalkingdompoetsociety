@@ -1,0 +1,58 @@
+alias ..="cd .."
+alias ...="cd ..."
+alias ....="cd ...."
+alias .....="cd ....."
+alias ......="cd ......"
+alias .......="cd ......."
+alias adzerk_dev_redshift='psql "host=$DEV_REDSHIFT_HOST user=$REDSHIFT_USER dbname=$REDSHIFT_DB port=$REDSHIFT_PORT password=$DEV_REDSHIFT_PW"'
+alias adzerk_prod_redshift='psql "host=$PROD_REDSHIFT_HOST user=$REDSHIFT_USER dbname=$REDSHIFT_DB port=$REDSHIFT_PORT password=$PROD_REDSHIFT_PW"'
+alias adzerk_unpack_data_shipping_logs='gunzip *.gz && rename "s/.log/.log.json/" *.log'
+alias allcolors='for code ({000..255}) print -P -- "$code: %F{$code}This is how your text would look like%f"'
+alias arc='$EDITOR ~/.config/.aliases'
+alias aws_creds='$EDITOR ~/.aws/credentials'
+alias be='bundle exec'
+alias beg='bundle exec guard'
+alias berc='bundle exec rails console'
+alias bers='bundle exec rails server'
+alias bfg='java -jar /usr/local/bin/bfg.jar'
+alias bil='bundle install --gemfile=Gemfile.local'
+alias brewup='brew update; brew upgrade; brew prune; brew cleanup; brew doctor'
+alias ca_clock="TZ='America/Los_Angeles' tty-clock -ScbB"
+alias calc="="
+alias cac='core acceptance console'
+alias cat='bat'
+alias clock="TZ='America/New_York' tty-clock -ScbB"
+alias cpc='core production console'
+alias csc='core staging console'
+alias diff='diff-so-fancy'
+alias disco_services='docker-compose run -e ELASTICSEARCH_URL=http://es6-acceptance.internal-weedmaps.com:80 -p 4004:3004 web'
+alias doco='docker-compose'
+alias dotfiles="/usr/local/bin/git --git-dir=$HOME/.dotfiles.git/ --work-tree=$HOME"
+alias erc='$EDITOR ~/.config/.env'
+alias flush_dns='sudo killall -HUP mDNSResponder; sleep 2;'
+alias goodnight='pmset displaysleepnow'
+alias grbid='git pull --rebase=interactive origin develop'
+alias grc='$EDITOR ~/.gitignore'
+alias irb='irb -I lib -r ${PWD/*\/}'
+alias l='exa -l'
+alias ls='exa --long --all --git --group-directories-first'
+alias myip='ipconfig getifaddr en0'
+alias nuke_core='make clean && make all'
+alias nuke_disco='make clean && make build && make local-prom-config && make test-teardown && make test-setup && make services && make bash'
+alias nvrc='$EDITOR ~/.config/nvim/init.vim'
+alias paths="echo \"${PATH//:/$'\n'}\""
+alias pry='pry -I lib -r ${PWD/*\/}'
+alias rcrc='$EDITOR ~/.config/rubocop/config.yml'
+alias rdbm='rails db:migrate'
+alias rebuild='git commit --allow-empty -m "Rebuild" && git push'
+alias rt='source ~/.zshrc' # Reload Terminal
+alias screensaver='hexdump -C < /dev/urandom| grep "ca fe"'
+alias simpleHTTP='python -m http.server 666'
+alias sl='exa --long --all --git --group-directories-first'
+alias src='$EDITOR ~/.slate'
+alias svim='vim -u ~/.SpaceVim/vimrc'
+alias tree_size='du -ah . | grep -v "/$" | sort -rh'
+alias vim='nvim'
+alias vrc='$EDITOR ~/.vimrc'
+alias whatamidoing='jb $(git rev-parse --abbrev-ref HEAD) && ticket'
+alias zrc='$EDITOR ~/.zshrc'
